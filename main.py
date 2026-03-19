@@ -1,16 +1,5 @@
 # This is a simple port scanner that checks for open ports on a target host.
 
-# TODO: Accept a target host (IP or hostname) from the user
-# TODO: Accept a port range (start port, end port) from the user
-# TODO: Resolve hostname to IP address
-# TODO: Loop through each port in the range
-# TODO: Attempt a TCP socket connection to each port
-# TODO: Record whether each port is open or closed
-# TODO: Print results as you go (or collect and print at the end)
-# TODO: Set a timeout so slow ports don't hang the program
-# TODO: Close each socket after checking
-# TODO: Handle errors gracefully (invalid host, refused connections, timeouts)
-
 import socket
 
 def scan_port_range(host_ip, start_port, end_port):
