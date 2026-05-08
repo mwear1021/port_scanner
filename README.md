@@ -26,7 +26,7 @@ The easiest way to use the API is through the built-in Swagger UI:
    - `start_port` — the first port in the range to scan (e.g. `1`)
    - `end_port` — the last port in the range to scan (e.g. `100`)
 5. Click **"Execute"**
-6. The response will show a list of open ports, for example:
+6. The response may take a bit to scan each port, but will show a list of open ports, for example:
 ```json
 {
   "open ports": [22, 80]
